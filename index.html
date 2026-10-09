@@ -1300,6 +1300,7 @@
     }
 
     .education-degree {
+      margin: 0;
       font-size: 0.83rem;
     }
 
@@ -1320,6 +1321,7 @@
       color: var(--muted);
       font-size: 0.65rem;
       font-weight: 700;
+      line-height: 1.4;
       white-space: nowrap;
     }
 
@@ -1394,11 +1396,14 @@
       font-size: 0.62rem;
       font-weight: 800;
       letter-spacing: 0.09em;
+      line-height: 1.4;
+      min-height: 2.8em;
       text-transform: uppercase;
     }
 
     .certificate-title {
       margin-top: 0.6rem;
+      min-height: 2.9em;
       font-size: 0.83rem;
       font-weight: 700;
       letter-spacing: -0.025em;
@@ -1407,6 +1412,7 @@
 
     .certificate-meta {
       margin-top: 0.45rem;
+      min-height: 3em;
       color: var(--body);
       font-size: 0.68rem;
       line-height: 1.5;
@@ -2098,6 +2104,14 @@
 
       .certificate-grid {
         grid-template-columns: 1fr 1fr;
+      }
+
+      .certificate-title {
+        min-height: 4.35em;
+      }
+
+      .certificate-meta {
+        min-height: 4.5em;
       }
 
       .form-row {
